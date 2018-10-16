@@ -2,7 +2,7 @@
 layout: post
 title: Introducing Hydejack dl
 description: >
-categories: [Blog]
-tags:       [Deep Learning, Life]
+#categories: [Deep Learning]
+tags:       [Deep Learning]
 excerpt_separator: <!--more-->
 ---
