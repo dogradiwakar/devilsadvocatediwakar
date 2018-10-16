@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Hydejack dd
+title: Introducing Hydejack dl
 description: >
 categories: [Deep Learning]
 tags:       [Deep Learning]
