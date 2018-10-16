@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hyde
-slug: hyde
+title: Machine Learning
+slug: Machine Learning
 menu: true
 order: 2
 description: >

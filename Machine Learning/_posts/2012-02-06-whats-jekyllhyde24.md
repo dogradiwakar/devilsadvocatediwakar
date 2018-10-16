@@ -4,7 +4,7 @@ title: What's Jekyll Hyde2?
 description: >
   Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
 author: author2
-categories: [Life, hyde,hydejack]
+categories: [Life, Machine Learning]
 tags:       [jekyll, update]
 canonical_url:
 ---

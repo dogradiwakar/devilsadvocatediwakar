@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hydejack
-slug: hydejack
+title: Deep Learning
+slug: Deep Learning
 menu: true
 order: 1
 description: >
