@@ -2,7 +2,7 @@
 layout: list
 title: Deep Learning
 slug: Deep Learning
-menu: true
+menu: false
 order: 1
 description: >
   Hydejack is a pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by

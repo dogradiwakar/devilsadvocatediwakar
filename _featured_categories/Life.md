@@ -2,7 +2,7 @@
 layout: list
 title: Life
 slug: Life
-menu: true
+menu: false
 order: 3
 description: >
   Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
