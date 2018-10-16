@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hyde2
-slug: hyde2
+title: Life
+slug: Life
 menu: true
 order: 3
 description: >
