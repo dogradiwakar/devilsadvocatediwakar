@@ -19,7 +19,7 @@ baseurl:               devilsadvocatediwakar
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Devil's Advocate
+title:                 Devil's Advocate1
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -113,7 +113,7 @@ defaults:
         type:          WebPage
   - scope:
       type:            featured_tags
-    values:            hyde,hyde2,hydejack    
+    values:            hyde,hyde2,hydejack
       seo:
         type:          WebPage
 
