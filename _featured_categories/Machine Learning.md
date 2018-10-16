@@ -2,7 +2,7 @@
 layout: list
 title: Machine Learning
 slug: Machine Learning
-menu: false
+menu: true
 order: 2
 description: >
   Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
