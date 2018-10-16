@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: list
 title: Hyde2
 slug: hyde2
 menu: true
