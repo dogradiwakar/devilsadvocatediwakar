@@ -6,7 +6,7 @@ description: >
 author: author2
 canonical_url:
 categories: [Life]
-tags:       [jekyll, update]
+tags:       [Life]
 ---
 
 
