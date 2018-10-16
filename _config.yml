@@ -108,12 +108,12 @@ defaults:
         type:          WebPage
   - scope:
       type:            featured_categories
-    values:            hyde,hyde2,hydejack
+    values:            [hyde,hyde2,hydejack]
       seo:
         type:          WebPage
   - scope:
       type:            featured_tags
-    values:            hyde,hyde2,hydejack
+    values:            [hyde,hyde2,hydejack]
       seo:
         type:          WebPage
 
