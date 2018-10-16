@@ -1,10 +1,12 @@
 ---
 layout: post
-title: What's JekyllHyde2?
+title: What's Jekyll Hyde2?
 description: >
   Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
 author: author2
-canonical_url: 
+categories: [hyde2, hyde]
+tags:       [jekyll, update]
+canonical_url:
 ---
 
 [Jekyll](https://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
