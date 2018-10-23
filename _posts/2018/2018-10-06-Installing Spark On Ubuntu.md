@@ -15,8 +15,8 @@ categories: [Installations]
 Check Java Version
 
 java -version
-
-![](/devilsadvocatediwakar/blob/gh-pages/_posts/2018/images/installing%20spark/1.png)
+![](/devilsadvocatediwakar/assets/img/1.jpg)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/1.png)
 
 Else install java
 
