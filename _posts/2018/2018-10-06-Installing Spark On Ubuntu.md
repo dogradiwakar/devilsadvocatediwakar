@@ -41,7 +41,7 @@ You can then quit the Scala REPL with
 
 
 
-##Step 3: Install Spark
+## Step 3: Install Spark
 Next its time to install Spark. We need git for this, so in your terminal type:
 sudo apt-get install git
 
