@@ -10,7 +10,7 @@ categories: [Installations]
 ---
 # Installing Apache Spark on Ubuntu
 
-## Step 1 Install Java
+## Step 1: Install Java.
 
 Check Java Version
 
