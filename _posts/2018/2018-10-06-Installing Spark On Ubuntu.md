@@ -8,14 +8,13 @@ canonical_url:
 categories: [Installations]
 #tags:       [Life]
 ---
-Install Java
-
+# Step 1 Install Java
 
 Check Java Version
 
 java -version
 
-
+![](/devilsadvocatediwakar/_posts/images/1.png)
 
 
 
