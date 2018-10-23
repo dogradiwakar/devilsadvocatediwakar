@@ -15,7 +15,7 @@ categories: [Installations]
 Check Java Version
 
 java -version
-![](/devilsadvocatediwakar/assets/img/2018/installingspark/1.png)
+![](/devilsadvocatediwakar/images/2018/installingspark/1.png)
 
 Else install java
 
