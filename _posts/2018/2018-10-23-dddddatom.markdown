@@ -2,6 +2,8 @@
 layout: "post"
 title: "dddddatom"
 date: "2018-10-23 12:29"
+tags:
+  - Deep Learning
 ---
 how to create a dd
 
