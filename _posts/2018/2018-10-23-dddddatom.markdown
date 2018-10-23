@@ -8,3 +8,4 @@ tags:
 how to create a dd
 
 ![pic](images/2018/10/Untitled picture.png)
+![](images/2018/10/070612700-4k-abstract-loop-color-geometr.jpg)
