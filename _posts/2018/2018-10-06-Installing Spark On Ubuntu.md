@@ -16,7 +16,7 @@ Check Java Version
 
 java -version
 
-![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/1.png)
+![](/devilsadvocatediwakar/blob/gh-pages/_posts/2018/images/installing%20spark/1.png)
 
 Else install java
 
