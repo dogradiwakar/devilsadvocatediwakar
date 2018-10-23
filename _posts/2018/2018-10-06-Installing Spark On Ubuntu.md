@@ -15,9 +15,9 @@ categories: [Installations]
 Check Java Version
 
 java -version
-![](/devilsadvocatediwakar/assets/img/1.jpg)
-![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/1.png)
-
+![](/devilsadvocatediwakar/assets/img/installingspark/1.png)
+![](\devilsadvocatediwakar\_posts\2018\images\installingspark\1.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installingspark/1.png)
 Else install java
 
 First, update the package index by in your terminal typing:
