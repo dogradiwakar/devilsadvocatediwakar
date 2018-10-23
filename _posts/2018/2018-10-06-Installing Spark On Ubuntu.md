@@ -8,7 +8,7 @@ canonical_url:
 categories: [Installations]
 #tags:       [Life]
 ---
-# Step 1 Install Java
+## Step 1 Install Java
 
 Check Java Version
 
@@ -24,7 +24,7 @@ sudo apt-get update
 
 sudo apt-get install default-jdk
 
-# Step 2: Install Scala
+## Step 2: Install Scala
 
 sudo apt-get install scala
 
@@ -41,7 +41,7 @@ You can then quit the Scala REPL with
 
 
 
-#Step 3: Install Spark
+##Step 3: Install Spark
 Next its time to install Spark. We need git for this, so in your terminal type:
 sudo apt-get install git
 
