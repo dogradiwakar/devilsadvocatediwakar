@@ -30,11 +30,11 @@ sudo apt-get install default-jdk
 
 sudo apt-get install scala
 
-![](/devilsadvocatediwakar/_posts\2018\images\installing spark/2.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/2.png)
 
 Type scala into your terminal:
 Scala
-![](/devilsadvocatediwakar/_posts\2018\images\installing spark/3.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/3.png)
 
 You should see the scala REPL running. Test it with:
 println(“Hello World”)
@@ -47,14 +47,14 @@ You can then quit the Scala REPL with
 Next its time to install Spark. We need git for this, so in your terminal type:
 sudo apt-get install git
 
-![](/devilsadvocatediwakar/_posts\2018\images\installing spark/4.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/4.png)
 
 
 Download latest Spark and untar it
 
 sudo tar xvf spark-2.3.1-bin-hadoop2.7.tgz -C /usr/local/spark
 
-![](/devilsadvocatediwakar_posts\2018\images\installing spark/5.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/5.png)
 
 
 Add Spark path to bash file
@@ -68,32 +68,32 @@ export PATH=$SPARK_HOME/bin:$PATH
 
 Execute below command after editing the bashsrc
 source ~/.bashrc
-![](/devilsadvocatediwakar/_posts\2018\images\installing spark/6.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/6.png)
 
 Go to the Bin Directory and execute the spark shell
 
 ./spark-shell
 
-![](/devilsadvocatediwakar/_posts\2018\images\installing spark/7.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/7.png)
 
 
 
 The web console is also available at below highlighted url
 
-![](/devilsadvocatediwakar/_posts\2018\images\installing spark/8.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/8.png)
 
 
-![](/devilsadvocatediwakar/_posts\2018\images\installing spark/9.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/9.png)
 
 To Start both master and slave node execute below command
 
-![](/devilsadvocatediwakar/_posts\2018\images\installing spark/10.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/10.png)
 
 
 ./Start-all.sh
 
 The web ui will be available at 8080 port
-![](/devilsadvocatediwakar/_posts\2018\images\installing spark/11.png)
+![](/devilsadvocatediwakar/_posts/2018/images/installing%20spark/11.png)
 
 
 
