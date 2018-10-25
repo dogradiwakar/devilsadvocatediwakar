@@ -25,16 +25,10 @@ SSH
 sudo apt-get install ssh
 sudo apt-get install sshd
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/4.png)
-![](/devilsadvocatediwakar/images/2018/installinghadoop/5.png)
-
 
 Install Ssh
-
-
-
-
-
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/5.png)
+![](/devilsadvocatediwakar/images/2018/installinghadoop/6.png)
 
 Configure SSH
 
@@ -45,20 +39,14 @@ The second command adds the newly created key to the list of authorized keys so 
 
 
 cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
+![](/devilsadvocatediwakar/images/2018/installinghadoop/7.png)
+![](/devilsadvocatediwakar/images/2018/installinghadoop/8.png)
 
-
-
-
-
-
-Install Hadoop
+## Install Hadoop
 
 wget http://mirrors.sonic.net/apache/hadoop/common/hadoop-2.9.1/hadoop-2.9.1.tar.gz
 
-
-
-
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/9.png)
 
 tar xvzf hadoop-2.9.1.tar.gz
 
@@ -88,6 +76,7 @@ Before editing the .bashrc file in our home directory, we need to find the pat
 update-alternatives --config java
 
 /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+![](/devilsadvocatediwakar/images/2018/installinghadoop/10.png)
 
 
 
@@ -118,7 +107,7 @@ $ javac -version
 $ which javac
 $ readlink -f /usr/bin/javac
 
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/11.png)
 
 /usr/lib/jvm/java-8-openjdk-amd64/bin/javac
 
@@ -231,17 +220,13 @@ Cd /usr/local/hadoop_store/hdfs/namenode 
 
 hadoop namenode -format
 
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/12.png)
 
 
 
 There will be files created under current folder
-
-
-
-
-
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/13.png)
+![](/devilsadvocatediwakar/images/2018/installinghadoop/14.png)
 
 
 Starting Hadoop
@@ -250,14 +235,11 @@ We can use start-all.sh or (start-dfs.sh and start-yarn.sh)
 cd /usr/local/hadoop/sbin
 /usr/local/hadoop/sbin$ start-all.sh
 
-
-
-
-
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/15.png)
+![](/devilsadvocatediwakar/images/2018/installinghadoop/16.png)
 
 Jps
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/17.png)
 
 Web interface
 web UI of the NameNode daemon
@@ -265,7 +247,7 @@ web UI of the NameNode daemon
 
  : http://localhost:50070/dfshealth.html#tab-overview
 
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/18.png)
 
 
 
