@@ -10,7 +10,7 @@ categories: [Installations]
 ---
 
 
-## Pre-requisites
+### Pre-requisites
 
 Java
 sudo apt-get install default-jre
