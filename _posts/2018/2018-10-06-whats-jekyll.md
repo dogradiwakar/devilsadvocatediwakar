@@ -16,6 +16,7 @@ Java
 sudo apt-get install default-jre
 
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/1.png)
+
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/2.png)
 
 sudo apt-get install default-jdk
@@ -28,6 +29,7 @@ sudo apt-get install sshd
 
 Install Ssh
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/5.png)
+
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/6.png)
 
 Configure SSH
@@ -40,6 +42,7 @@ The second command adds the newly created key to the list of authorized keys so 
 
 cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/7.png)
+
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/8.png)
 
 ## Install Hadoop
@@ -226,6 +229,7 @@ hadoop namenode -format
 
 There will be files created under current folder
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/13.png)
+
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/14.png)
 
 
@@ -236,6 +240,7 @@ cd /usr/local/hadoop/sbin
 /usr/local/hadoop/sbin$ start-all.sh
 
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/15.png)
+
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/16.png)
 
 Jps
