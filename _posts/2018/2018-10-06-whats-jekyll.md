@@ -10,33 +10,22 @@ categories: [Installations]
 ---
 
 
- Pre-requisites
+Pre-requisites
 
 Java
 sudo apt-get install default-jre
 
-
-
-
-
-
-
-
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/1.png)
+![](/devilsadvocatediwakar/images/2018/installinghadoop/2.png)
 
 sudo apt-get install default-jdk
-
-
-
-
-
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/3.png)
 
 SSH
 sudo apt-get install ssh
 sudo apt-get install sshd
-
-
+![](/devilsadvocatediwakar/images/2018/installinghadoop/4.png)
+![](/devilsadvocatediwakar/images/2018/installinghadoop/5.png)
 
 
 Install Ssh
