@@ -73,7 +73,7 @@ The following files will have to be modified to complete the Hadoop setup:
 	• /usr/local/hadoop/etc/hadoop/core-site.xml
 
 	• /usr/local/hadoop/etc/hadoop/mapred-site.xml.template
-	
+
 	• /usr/local/hadoop/etc/hadoop/hdfs-site.xml
 
 
@@ -92,17 +92,17 @@ Now we can append the following to the end of ~/.bashrc:
 Execute : nano ~/.bashrc
 
 
-#HADOOP VARIABLES START
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export HADOOP_INSTALL=/usr/local/hadoop
-export PATH=$PATH:$HADOOP_INSTALL/bin
-export PATH=$PATH:$HADOOP_INSTALL/sbin
-export HADOOP_MAPRED_HOME=$HADOOP_INSTALL
-export HADOOP_COMMON_HOME=$HADOOP_INSTALL
-export HADOOP_HDFS_HOME=$HADOOP_INSTALL
-export YARN_HOME=$HADOOP_INSTALL
-export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_INSTALL/lib/native
-export HADOOP_OPTS="-Djava.library.path=$HADOOP_INSTALL/lib"
+#HADOOP VARIABLES START <br />
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 <br />
+export HADOOP_INSTALL=/usr/local/hadoop <br />
+export PATH=$PATH:$HADOOP_INSTALL/bin <br />
+export PATH=$PATH:$HADOOP_INSTALL/sbin <br />
+export HADOOP_MAPRED_HOME=$HADOOP_INSTALL <br />
+export HADOOP_COMMON_HOME=$HADOOP_INSTALL <br />
+export HADOOP_HDFS_HOME=$HADOOP_INSTALL <br />
+export YARN_HOME=$HADOOP_INSTALL <br />
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_INSTALL/lib/native <br />
+export HADOOP_OPTS="-Djava.library.path=$HADOOP_INSTALL/lib" <br />
 #HADOOP VARIABLES END
 
 Execute below command after editing the bashsrc
