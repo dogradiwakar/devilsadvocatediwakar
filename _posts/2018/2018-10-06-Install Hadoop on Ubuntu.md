@@ -106,13 +106,17 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_INSTALL/lib" <br />
 #HADOOP VARIABLES END
 
 Execute below command after editing the bashsrc
+
 source ~/.bashrc
 
 
 
 note that the JAVA_HOME should be set as the path just before the '.../bin/':
+
 $ javac -version
+
 $ which javac
+
 $ readlink -f /usr/bin/javac
 
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/11.png)
@@ -124,8 +128,11 @@ $ readlink -f /usr/bin/javac
 **2. /usr/local/hadoop/etc/hadoop/hadoop-env.sh**
 
 We need to set JAVA_HOME by modifying hadoop-env.sh file.
+
 nano  /usr/local/hadoop/etc/hadoop/hadoop-env.sh
+
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
 Adding the above statement in the hadoop-env.sh file ensures that the value of JAVA_HOME variable will be available to Hadoop whenever it is started up.
 
 **3. /usr/local/hadoop/etc/hadoop/core-site.xml:**
