@@ -67,9 +67,13 @@ sudo chown -R diwakar:diwakar /usr/local/hadoop
 **Setup Configuration Files**
 The following files will have to be modified to complete the Hadoop setup:
 	• ~/.bashrc
+
 	• /usr/local/hadoop/etc/hadoop/hadoop-env.sh
+
 	• /usr/local/hadoop/etc/hadoop/core-site.xml
+
 	• /usr/local/hadoop/etc/hadoop/mapred-site.xml.template
+	
 	• /usr/local/hadoop/etc/hadoop/hdfs-site.xml
 
 
