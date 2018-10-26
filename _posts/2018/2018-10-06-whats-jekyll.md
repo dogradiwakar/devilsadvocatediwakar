@@ -34,7 +34,7 @@ Install Ssh
 
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/6.png)
 
-Configure SSH
+**Configure SSH**
 
 ssh-keygen -t rsa -P ""
 
@@ -43,11 +43,12 @@ The second command adds the newly created key to the list of authorized keys so 
 
 
 cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
+
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/7.png)
 
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/8.png)
 
-## Install Hadoop
+**Install Hadoop**
 
 wget http://mirrors.sonic.net/apache/hadoop/common/hadoop-2.9.1/hadoop-2.9.1.tar.gz
 
