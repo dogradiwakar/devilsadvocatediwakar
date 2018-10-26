@@ -136,17 +136,19 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 Adding the above statement in the hadoop-env.sh file ensures that the value of JAVA_HOME variable will be available to Hadoop whenever it is started up.
 
 **3. /usr/local/hadoop/etc/hadoop/core-site.xml:**
+
 The /usr/local/hadoop/etc/hadoop/core-site.xml file contains configuration properties that Hadoop uses when starting up. 
 This file can be used to override the default settings that Hadoop starts with.
 
+sudo mkdir -p /app/hadoop/tmp
 
- sudo mkdir -p /app/hadoop/tmp
 sudo chown diwakar:diwakar /app/hadoop/tmp
 
 Open the file and enter the following in between the <configuration></configuration> tag:
 
 nano /usr/local/hadoop/etc/hadoop/core-site.xml
 
+```
 <configuration>
  <property>
   <name>hadoop.tmp.dir</name>
@@ -163,7 +165,7 @@ nano /usr/local/hadoop/etc/hadoop/core-site.xml
   determine the host, port, etc. for a filesystem.</description>
  </property>
 </configuration>
-
+```
 
 
 **4. /usr/local/hadoop/etc/hadoop/mapred-site.xml**
