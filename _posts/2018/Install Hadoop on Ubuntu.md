@@ -57,16 +57,14 @@ wget http://mirrors.sonic.net/apache/hadoop/common/hadoop-2.9.1/hadoop-2.9.1.tar
 tar xvzf hadoop-2.9.1.tar.gz
 
 
-We want to move the Hadoop installation to the /usr/local/hadoop directory using the following command:
-
-
+Move the Hadoop installation to the /usr/local/hadoop directory using the following command:
 
 sudo mv * /usr/local/hadoop
 
 sudo chown -R diwakar:diwakar /usr/local/hadoop
 
 
-Setup Configuration Files
+**Setup Configuration Files**
 The following files will have to be modified to complete the Hadoop setup:
 	• ~/.bashrc
 	• /usr/local/hadoop/etc/hadoop/hadoop-env.sh
@@ -76,7 +74,7 @@ The following files will have to be modified to complete the Hadoop setup:
 
 
 
-1. ~/.bashrc:
+**1. ~/.bashrc:**
 Before editing the .bashrc file in our home directory, we need to find the path where Java has been installed to set the JAVA_HOME environment variable using the following command:
 
 update-alternatives --config java
@@ -119,14 +117,14 @@ $ readlink -f /usr/bin/javac
 
 
 
-2. /usr/local/hadoop/etc/hadoop/hadoop-env.sh
+**2. /usr/local/hadoop/etc/hadoop/hadoop-env.sh**
 
 We need to set JAVA_HOME by modifying hadoop-env.sh file.
 nano  /usr/local/hadoop/etc/hadoop/hadoop-env.sh
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 Adding the above statement in the hadoop-env.sh file ensures that the value of JAVA_HOME variable will be available to Hadoop whenever it is started up.
 
-3. /usr/local/hadoop/etc/hadoop/core-site.xml:
+**3. /usr/local/hadoop/etc/hadoop/core-site.xml:**
 The /usr/local/hadoop/etc/hadoop/core-site.xml file contains configuration properties that Hadoop uses when starting up. 
 This file can be used to override the default settings that Hadoop starts with.
 
@@ -157,7 +155,7 @@ nano /usr/local/hadoop/etc/hadoop/core-site.xml
 
 
 
-4. /usr/local/hadoop/etc/hadoop/mapred-site.xml
+**4. /usr/local/hadoop/etc/hadoop/mapred-site.xml**
 
 By default, the /usr/local/hadoop/etc/hadoop/ folder contains 
 /usr/local/hadoop/etc/hadoop/mapred-site.xml.template 
@@ -182,7 +180,7 @@ We need to enter the following content in between the <configuration></configura
 </configuration>
 
 
-5. /usr/local/hadoop/etc/hadoop/hdfs-site.xml
+**5. /usr/local/hadoop/etc/hadoop/hdfs-site.xml**
 
 The /usr/local/hadoop/etc/hadoop/hdfs-site.xml file needs to be configured for each host in the cluster that is being used. 
 It is used to specify the directories which will be used as the namenode and the datanode on that host.
