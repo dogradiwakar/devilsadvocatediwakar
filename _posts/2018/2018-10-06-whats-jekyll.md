@@ -10,7 +10,7 @@ categories: [Installations]
 ---
 
 
-Pre-requisites
+#### Pre-requisites
 
 Java
 sudo apt-get install default-jre
@@ -22,8 +22,9 @@ sudo apt-get install default-jre
 sudo apt-get install default-jdk
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/3.png)
 
-SSH
+##### SSH
 sudo apt-get install ssh
+
 sudo apt-get install sshd
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/4.png)
 
@@ -245,8 +246,7 @@ cd /usr/local/hadoop/sbin
 
 Jps
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/17.png)
-
-Web interface
+ Web interface
 web UI of the NameNode daemon
 
 
