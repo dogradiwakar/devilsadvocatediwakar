@@ -171,7 +171,9 @@ nano /usr/local/hadoop/etc/hadoop/core-site.xml
 **4. /usr/local/hadoop/etc/hadoop/mapred-site.xml**
 
 By default, the /usr/local/hadoop/etc/hadoop/ folder contains 
+
 /usr/local/hadoop/etc/hadoop/mapred-site.xml.template 
+
 file which has to be renamed/copied with the name mapred-site.xml:
 
 
@@ -180,7 +182,10 @@ $ cp /usr/local/hadoop/etc/hadoop/mapred-site.xml.template /usr/local/hadoop/etc
 nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
 
 The mapred-site.xml file is used to specify which framework is being used for MapReduce.
+
 We need to enter the following content in between the <configuration></configuration> tag:
+
+```
 <configuration>
  <property>
   <name>mapred.job.tracker</name>
@@ -191,26 +196,28 @@ We need to enter the following content in between the <configuration></configura
   </description>
  </property>
 </configuration>
-
+```
 
 **5. /usr/local/hadoop/etc/hadoop/hdfs-site.xml**
 
 The /usr/local/hadoop/etc/hadoop/hdfs-site.xml file needs to be configured for each host in the cluster that is being used. 
 It is used to specify the directories which will be used as the namenode and the datanode on that host.
+
 Before editing this file, we need to create two directories which will contain the namenode and the datanode for this Hadoop installation. 
 This can be done using the following commands:
 
- sudo mkdir -p /usr/local/hadoop_store/hdfs/namenode
+```
+sudo mkdir -p /usr/local/hadoop_store/hdfs/namenode
 sudo mkdir -p /usr/local/hadoop_store/hdfs/datanode
 sudo chown -R diwakar:diwakar /usr/local/hadoop_store
-
+```
 
 Open the file and enter the following content in between the <configuration></configuration> tag:
 
 
 nano /usr/local/hadoop/etc/hadoop/hdfs-site.xml
 
-
+```
 <configuration>
  <property>
   <name>dfs.replication</name>
@@ -229,17 +236,16 @@ nano /usr/local/hadoop/etc/hadoop/hdfs-site.xml
    <value>file:/usr/local/hadoop_store/hdfs/datanode</value>
  </property>
 </configuration>
-
+```
 
 Format the New Hadoop Filesystem
 Now, the Hadoop file system needs to be formatted so that we can start to use it. The format command should be issued with write permission since it creates current directory 
+
 Cd /usr/local/hadoop_store/hdfs/namenode 
 
 hadoop namenode -format
 
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/12.png)
-
-
 
 There will be files created under current folder
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/13.png)
@@ -248,9 +254,12 @@ There will be files created under current folder
 
 
 Starting Hadoop
-Now it's time to start the newly installed single node cluster. 
+Now it's time to start the newly installed single node cluster.
+ 
 We can use start-all.sh or (start-dfs.sh and start-yarn.sh)
+
 cd /usr/local/hadoop/sbin
+
 /usr/local/hadoop/sbin$ start-all.sh
 
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/15.png)
@@ -258,10 +267,12 @@ cd /usr/local/hadoop/sbin
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/16.png)
 
 Jps
-![](/devilsadvocatediwakar/images/2018/installinghadoop/17.png)
- Web interface
-web UI of the NameNode daemon
 
+![](/devilsadvocatediwakar/images/2018/installinghadoop/17.png)
+
+Web interface
+
+web UI of the NameNode daemon
 
  : http://localhost:50070/dfshealth.html#tab-overview
 
