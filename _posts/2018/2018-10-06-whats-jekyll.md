@@ -10,7 +10,7 @@ categories: [Installations]
 ---
 
 
-**#### Pre-requisites**
+**Pre-requisites**
 
 Java
 sudo apt-get install default-jre
@@ -22,7 +22,7 @@ sudo apt-get install default-jre
 sudo apt-get install default-jdk
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/3.png)
 
-**#### SSH**
+**SSH**
 sudo apt-get install ssh
 
 sudo apt-get install sshd
