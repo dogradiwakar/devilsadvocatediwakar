@@ -23,6 +23,7 @@ sudo apt-get install default-jdk
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/3.png)
 
 **SSH**
+
 sudo apt-get install ssh
 
 sudo apt-get install sshd
