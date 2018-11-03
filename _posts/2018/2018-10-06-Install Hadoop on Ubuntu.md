@@ -182,7 +182,9 @@ By default, the /usr/local/hadoop/etc/hadoop/ folder contains 
 file which has to be renamed/copied with the name mapred-site.xml:
 
 
+```
 $ cp /usr/local/hadoop/etc/hadoop/mapred-site.xml.template /usr/local/hadoop/etc/hadoop/mapred-site.xml
+```
 
 nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
 
