@@ -185,8 +185,9 @@ file which has to be renamed/copied with the name mapred-site.xml:
 ```
 $ cp /usr/local/hadoop/etc/hadoop/mapred-site.xml.template /usr/local/hadoop/etc/hadoop/mapred-site.xml
 ```
-
+```
 nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
+```
 
 The mapred-site.xml file is used to specify which framework is being used for MapReduce.
 
@@ -221,9 +222,9 @@ sudo chown -R diwakar:diwakar /usr/local/hadoop_store
 
 Open the file and enter the following content in between the <configuration></configuration> tag:
 
-
+```
 nano /usr/local/hadoop/etc/hadoop/hdfs-site.xml
-
+```
 ```
 <configuration>
  <property>
