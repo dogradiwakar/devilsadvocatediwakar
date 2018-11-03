@@ -283,13 +283,13 @@ Web interface
 
 web UI of the NameNode daemon
 
- : http://localhost:50070/dfshealth.html#tab-overview
+ : http://localhost:50070
 
 ![](/devilsadvocatediwakar/images/2018/installinghadoop/18.png)
 
 
 
-SecondaryNameNode http://localhost:50090/dfshealth.html#tab-overview
+SecondaryNameNode http://localhost:50090/
 
 
 [docs]: ../../docs/README.md
