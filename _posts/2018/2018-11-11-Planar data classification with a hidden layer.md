@@ -245,17 +245,17 @@ print("The size of the output layer is: n_y = " + str(n_y))
 
 <table style="width:20%">
   <tr>
-    <td>**n_x**</td>
+    <td>n_x</td>
     <td> 5 </td>
   </tr>
 
     <tr>
-    <td>**n_h**</td>
+    <td>n_h</td>
     <td> 4 </td>
   </tr>
 
     <tr>
-    <td>**n_y**</td>
+    <td>n_y</td>
     <td> 2 </td>
   </tr>
 
