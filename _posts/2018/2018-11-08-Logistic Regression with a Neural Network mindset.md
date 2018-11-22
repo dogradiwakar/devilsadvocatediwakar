@@ -648,8 +648,7 @@ print ("predictions = " + str(predict(w, b, X)))
 </table>
 
 
-<font color='blue'>
-**What to remember:**
+
 You've implemented several functions that:
 - Initialize (w,b)
 - Optimize the loss iteratively to learn parameters (w,b):
@@ -916,8 +915,7 @@ print("y = " + str(np.squeeze(my_predicted_image)) + ", your algorithm predicts 
 ![png](Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_53_1.png)
 
 
-<font color='blue'>
-**What to remember from this assignment:**
+
 1. Preprocessing the dataset is important.
 2. You implemented each function separately: initialize(), propagate(), optimize(). Then you built a model().
 3. Tuning the learning rate (which is an example of a "hyperparameter") can make a big difference to the algorithm. You will see more examples of this later in this course!
