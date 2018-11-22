@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Logistic Regression with a Neural Network mindset
+title: Logistic regression with a neural network mindset
 description: >
 
 author: author1
 canonical_url:
 categories: [Installations]
 #tags:       [Life]
+---
