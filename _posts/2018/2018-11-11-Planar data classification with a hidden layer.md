@@ -10,7 +10,7 @@ categories: [Deep Learning]
 ---
 
 
-# Planar data classification with one hidden layer
+### Planar data classification with one hidden layer
 
 https://github.com/dogradiwakar/Neural-Networks-and-Deep-Learning/blob/master/Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5.ipynb
 
