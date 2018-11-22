@@ -13,17 +13,11 @@ categories: [Deep Learning]
 
 # Logistic Regression with a Neural Network mindset
 
-Welcome to your first (required) programming assignment! You will build a logistic regression classifier to recognize  cats. This assignment will step you through how to do this with a Neural Network mindset, and so will also hone your intuitions about deep learning...
+This is the ipython notebook regarding the assignment of Neural-Networks-and-Deep-Learning Coursera Course .
 
-**Instructions:**
-- Do not use loops (for/while) in your code, unless the instructions explicitly ask you to do so.
+Origional Notebook at below location
 
-**You will learn to:**
-- Build the general architecture of a learning algorithm, including:
-    - Initializing parameters
-    - Calculating the cost function and its gradient
-    - Using an optimization algorithm (gradient descent)
-- Gather all three functions above into a main model function, in the right order.
+https://github.com/dogradiwakar/Neural-Networks-and-Deep-Learning/blob/master/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5.ipynb
 
 ## 1 - Packages ##
 
@@ -46,10 +40,6 @@ from lr_utils import load_dataset
 %matplotlib inline
 ```
 
-    /opt/conda/lib/python3.5/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
-      warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
-    /opt/conda/lib/python3.5/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
-      warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
 
 
 ## 2 - Overview of the Problem set ##
