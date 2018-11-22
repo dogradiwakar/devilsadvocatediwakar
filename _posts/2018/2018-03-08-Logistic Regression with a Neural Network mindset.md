@@ -192,16 +192,6 @@ print ("sanity check after reshaping: " + str(train_set_x_flatten[0:5,0]))
   <td>[17 31 56 22 33]</td>
   </tr>
 </table>
-
-To represent color images, the red, green and blue channels (RGB) must be specified for each pixel, and so the pixel value is actually a vector of three numbers ranging from 0 to 255.
-
-One common preprocessing step in machine learning is to center and standardize your dataset, meaning that you substract the mean of the whole numpy array from each example, and then divide each example by the standard deviation of the whole numpy array. But for picture datasets, it is simpler and more convenient and works almost as well to just divide every row of the dataset by 255 (the maximum value of a pixel channel).
-
-<!-- During the training of your model, you're going to multiply weights and add biases to some initial inputs in order to observe neuron activations. Then you backpropogate with the gradients to train the model. But, it is extremely important for each feature to have a similar range such that our gradients don't explode. You will see that more in detail later in the lectures. !-->
-
-Let's standardize our dataset.
-
-
 ```python
 train_set_x = train_set_x_flatten/255.
 test_set_x = test_set_x_flatten/255.
