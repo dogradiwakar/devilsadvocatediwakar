@@ -46,12 +46,6 @@ from planar_utils import plot_decision_boundary, sigmoid, load_planar_dataset, l
 np.random.seed(1) # set a seed so that the results are consistent
 ```
 
-    /opt/conda/lib/python3.5/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
-      warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
-    /opt/conda/lib/python3.5/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
-      warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
-
-
 ## 2 - Dataset ##
 
 First, let's get the dataset you will work on. The following code will load a "flower" 2-class dataset into variables `X` and `Y`.
@@ -106,17 +100,17 @@ print ('I have m = %d training examples!' % (m))
 <table style="width:20%">
 
   <tr>
-    <td>**shape of X**</td>
+    <td>shape of X</td>
     <td> (2, 400) </td>
   </tr>
 
   <tr>
-    <td>**shape of Y**</td>
+    <td>shape of Y</td>
     <td>(1, 400) </td>
   </tr>
 
     <tr>
-    <td>**m**</td>
+    <td>m</td>
     <td> 400 </td>
   </tr>
 
