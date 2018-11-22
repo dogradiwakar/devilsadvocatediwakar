@@ -58,7 +58,7 @@ Let's get more familiar with the dataset. Load the data by running the following
 train_set_x_orig, train_set_y, test_set_x_orig, test_set_y, classes = load_dataset()
 ```
 
-We added "_orig" at the end of image datasets (train and test) because we are going to preprocess them. After preprocessing, we will end up with train_set_x and test_set_x (the labels train_set_y and test_set_y don't need any preprocessing).
+We added "\_orig\" at the end of image datasets (train and test) because we are going to preprocess them. After preprocessing, we will end up with train_set_x and test_set_x (the labels train_set_y and test_set_y don't need any preprocessing).
 
 Each line of your train_set_x_orig and test_set_x_orig is an array representing an image. You can visualize an example by running the following code. Feel free also to change the `index` value and re-run to see other images.
 
