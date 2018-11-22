@@ -97,7 +97,7 @@ print ('I have m = %d training examples!' % (m))
 
 **Expected Output**:
 
-<table style="width:20%">
+<table style="width:60%">
 
   <tr>
     <td>shape of X</td>
