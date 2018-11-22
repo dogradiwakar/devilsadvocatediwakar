@@ -70,7 +70,7 @@ plt.scatter(X[0, :], X[1, :], c=Y, s=40, cmap=plt.cm.Spectral);
 ```
 
 
-![png](Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5_files/Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5_6_0.png)
+![](/devilsadvocatediwakar/images/2018/Planardata/1.png)
 
 
 You have:
@@ -155,7 +155,7 @@ print ('Accuracy of logistic regression: %d ' % float((np.dot(Y,LR_predictions) 
 
 
 
-![png](Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5_files/Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5_13_1.png)
+![](/devilsadvocatediwakar/images/2018/Planardata/2.png)
 
 
 **Expected Output**:
@@ -1006,7 +1006,7 @@ plt.title("Decision Boundary for hidden layer size " + str(4))
 
 
 
-![png](Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5_files/Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5_50_2.png)
+![](/devilsadvocatediwakar/images/2018/Planardata/3.png)
 
 
 **Expected Output**:
@@ -1073,7 +1073,7 @@ for i, n_h in enumerate(hidden_layer_sizes):
 
 
 
-![png](Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5_files/Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5_56_1.png)
+![](/devilsadvocatediwakar/images/2018/Planardata/4.png)
 
 
 **Interpretation**:
@@ -1084,20 +1084,6 @@ for i, n_h in enumerate(hidden_layer_sizes):
 **Optional questions**:
 
 **Note**: Remember to submit the assignment but clicking the blue "Submit Assignment" button at the upper-right.
-
-Some optional/ungraded questions that you can explore if you wish:
-- What happens when you change the tanh activation for a sigmoid activation or a ReLU activation?
-- Play with the learning_rate. What happens?
-- What if we change the dataset? (See part 5 below!)
-
-<font color='blue'>
-**You've learnt to:**
-- Build a complete neural network with a hidden layer
-- Make a good use of a non-linear unit
-- Implemented forward propagation and backpropagation, and trained a neural network
-- See the impact of varying the hidden layer size, including overfitting.
-
-Nice work!
 
 ## 5) Performance on other datasets
 
@@ -1129,7 +1115,7 @@ plt.scatter(X[0, :], X[1, :], c=Y, s=40, cmap=plt.cm.Spectral);
 ```
 
 
-![png](Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5_files/Planar%2Bdata%2Bclassification%2Bwith%2Bone%2Bhidden%2Blayer%2Bv5_63_0.png)
+![](/devilsadvocatediwakar/images/2018/Planardata/5.png)
 
 
 Congrats on finishing this Programming Assignment!
