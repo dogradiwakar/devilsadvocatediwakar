@@ -11,6 +11,8 @@ categories: [Deep Learning]
 
 ### Building your Deep Neural Network: Step by Step
 
+https://github.com/dogradiwakar/Neural-Networks-and-Deep-Learning/blob/master/Building%2Byour%2BDeep%2BNeural%2BNetwork%2B-%2BStep%2Bby%2BStep%2Bv8.ipynb
+
 Welcome to your week 4 assignment (part 1 of 2)! You have previously trained a 2-layer Neural Network (with a single hidden layer). This week, you will build a deep neural network, with as many layers as you want!
 
 - In this notebook, you will implement all the functions required to build a deep neural network.
