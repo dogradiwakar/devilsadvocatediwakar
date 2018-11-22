@@ -10,9 +10,20 @@ categories: [Deep Learning]
 ---
 
 
+
 # Logistic Regression with a Neural Network mindset
 
-This is the  used for in Neural Networks and Deep Learning Week 2 Assignment.
+Welcome to your first (required) programming assignment! You will build a logistic regression classifier to recognize  cats. This assignment will step you through how to do this with a Neural Network mindset, and so will also hone your intuitions about deep learning.
+
+**Instructions:**
+- Do not use loops (for/while) in your code, unless the instructions explicitly ask you to do so.
+
+**You will learn to:**
+- Build the general architecture of a learning algorithm, including:
+    - Initializing parameters
+    - Calculating the cost function and its gradient
+    - Using an optimization algorithm (gradient descent)
+- Gather all three functions above into a main model function, in the right order.
 
 ## 1 - Packages ##
 
@@ -58,7 +69,7 @@ Let's get more familiar with the dataset. Load the data by running the following
 train_set_x_orig, train_set_y, test_set_x_orig, test_set_y, classes = load_dataset()
 ```
 
-We added "\_orig\" at the end of image datasets (train and test) because we are going to preprocess them. After preprocessing, we will end up with train_set_x and test_set_x (the labels train_set_y and test_set_y don't need any preprocessing).
+We added "_orig" at the end of image datasets (train and test) because we are going to preprocess them. After preprocessing, we will end up with train_set_x and test_set_x (the labels train_set_y and test_set_y don't need any preprocessing).
 
 Each line of your train_set_x_orig and test_set_x_orig is an array representing an image. You can visualize an example by running the following code. Feel free also to change the `index` value and re-run to see other images.
 
@@ -74,7 +85,7 @@ print ("y = " + str(train_set_y[:, index]) + ", it's a '" + classes[np.squeeze(t
 
 
 
-![png](output_6_1.png)
+![png](Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_6_1.png)
 
 
 Many software bugs in deep learning come from having matrix/vector dimensions that don't fit. If you can keep your matrix/vector dimensions straight you will go a long way toward eliminating many bugs.
@@ -194,7 +205,7 @@ To represent color images, the red, green and blue channels (RGB) must be specif
 
 One common preprocessing step in machine learning is to center and standardize your dataset, meaning that you substract the mean of the whole numpy array from each example, and then divide each example by the standard deviation of the whole numpy array. But for picture datasets, it is simpler and more convenient and works almost as well to just divide every row of the dataset by 255 (the maximum value of a pixel channel).
 
- During the training of your model, you're going to multiply weights and add biases to some initial inputs in order to observe neuron activations. Then you backpropogate with the gradients to train the model. But, it is extremely important for each feature to have a similar range such that our gradients don't explode. You will see that more in detail later in the lectures.
+<!-- During the training of your model, you're going to multiply weights and add biases to some initial inputs in order to observe neuron activations. Then you backpropogate with the gradients to train the model. But, it is extremely important for each feature to have a similar range such that our gradients don't explode. You will see that more in detail later in the lectures. !-->
 
 Let's standardize our dataset.
 
@@ -787,7 +798,7 @@ print ("y = " + str(test_set_y[0,index]) + ", you predicted that it is a \"" + c
 
 
 
-![png](output_44_2.png)
+![png](Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_44_2.png)
 
 
 Let's also plot the cost function and the gradients.
@@ -804,7 +815,7 @@ plt.show()
 ```
 
 
-![png](output_46_0.png)
+![png](Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_46_0.png)
 
 
 **Interpretation**:
@@ -863,7 +874,7 @@ plt.show()
 
 
 
-![png](output_50_1.png)
+![png](Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_50_1.png)
 
 
 **Interpretation**:
@@ -903,7 +914,7 @@ print("y = " + str(np.squeeze(my_predicted_image)) + ", your algorithm predicts 
 
 
 
-![png](output_53_1.png)
+![png](Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_53_1.png)
 
 
 <font color='blue'>
@@ -920,8 +931,3 @@ Finally, if you'd like, we invite you to try different things on this Notebook. 
 Bibliography:
 - http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/
 - https://stats.stackexchange.com/questions/211436/why-do-we-normalize-images-by-subtracting-the-datasets-image-mean-and-not-the-c
-
-
-```python
-
-```
