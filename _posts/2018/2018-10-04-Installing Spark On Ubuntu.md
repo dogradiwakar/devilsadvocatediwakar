@@ -8,7 +8,7 @@ canonical_url:
 categories: [Installations]
 #tags:       [Life]
 ---
-# Installing Apache Spark on Ubuntu
+### Installing Apache Spark on Ubuntu
 
 ## Step 1: Install Java.
 
