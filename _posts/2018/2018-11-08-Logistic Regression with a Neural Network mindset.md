@@ -13,7 +13,7 @@ categories: [Deep Learning]
 
 # Logistic Regression with a Neural Network mindset
 
-Welcome to your first (required) programming assignment! You will build a logistic regression classifier to recognize  cats. This assignment will step you through how to do this with a Neural Network mindset, and so will also hone your intuitions about deep learning.
+Welcome to your first (required) programming assignment! You will build a logistic regression classifier to recognize  cats. This assignment will step you through how to do this with a Neural Network mindset, and so will also hone your intuitions about deep learning...
 
 **Instructions:**
 - Do not use loops (for/while) in your code, unless the instructions explicitly ask you to do so.
