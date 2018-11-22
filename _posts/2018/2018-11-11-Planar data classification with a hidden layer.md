@@ -176,7 +176,7 @@ print ('Accuracy of logistic regression: %d ' % float((np.dot(Y,LR_predictions) 
 Logistic regression did not work well on the "flower dataset". You are going to train a Neural Network with a single hidden layer.
 
 **Here is our model**:
-<img src="images/classification_kiank.png" style="width:600px;height:300px;">
+![](/devilsadvocatediwakar/images/2018/Planardata/6.png)
 
 **Mathematically**:
 
@@ -523,7 +523,7 @@ Using the cache computed during forward propagation, you can now implement backw
 **Instructions**:
 Backpropagation is usually the hardest (most mathematical) part in deep learning. To help you, here again is the slide from the lecture on backpropagation. You'll want to use the six equations on the right of this slide, since you are building a vectorized implementation.  
 
-<img src="images/grad_summary.png" style="width:600px;height:300px;">
+![](/devilsadvocatediwakar/images/2018/Planardata/7.png)
 
 <!--
 $\frac{\partial \mathcal{J} }{ \partial z_{2}^{(i)} } = \frac{1}{m} (a^{[2](i)} - y^{(i)})$
