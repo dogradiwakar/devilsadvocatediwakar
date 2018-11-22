@@ -796,7 +796,7 @@ print ("y = " + str(test_set_y[0,index]) + ", you predicted that it is a \"" + c
 
 
 
-![png](Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_44_2.png)
+![png](/devilsadvocatediwakar/images/2018/Logistic+Regression+with+a+Neural+Network+mindset+v5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_44_2.png)
 
 
 Let's also plot the cost function and the gradients.
@@ -813,7 +813,7 @@ plt.show()
 ```
 
 
-![png](Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_46_0.png)
+![png](/devilsadvocatediwakar/images/2018/Logistic+Regression+with+a+Neural+Network+mindset+v5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_46_0.png)
 
 
 **Interpretation**:
@@ -872,7 +872,7 @@ plt.show()
 
 
 
-![png](Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_50_1.png)
+![png](/devilsadvocatediwakar/images/2018/Logistic+Regression+with+a+Neural+Network+mindset+v5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_50_1.png)
 
 
 **Interpretation**:
@@ -912,7 +912,7 @@ print("y = " + str(np.squeeze(my_predicted_image)) + ", your algorithm predicts 
 
 
 
-![png](Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_53_1.png)
+![png](/devilsadvocatediwakar/images/2018/Logistic+Regression+with+a+Neural+Network+mindset+v5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_files/Logistic%2BRegression%2Bwith%2Ba%2BNeural%2BNetwork%2Bmindset%2Bv5_53_1.png)
 
 
 
