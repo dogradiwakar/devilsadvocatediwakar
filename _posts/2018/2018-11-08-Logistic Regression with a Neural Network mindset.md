@@ -11,7 +11,7 @@ categories: [Deep Learning]
 
 
 
-# Logistic Regression with a Neural Network mindset
+### Logistic Regression with a Neural Network mindset
 
 This is the ipython notebook regarding the assignment of Neural-Networks-and-Deep-Learning Coursera Course .
 
